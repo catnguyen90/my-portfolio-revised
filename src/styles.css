@@ -1,0 +1,198 @@
+:root {
+  --heading-font-family: "Lora", serif;
+  --default-font-family: "Dosis", sans-serif;
+  --main-background: url(../images/pastel-pink-banner5.jpg);
+  --secondary-background: url(../images/pastel-pink-banner6.jpg);
+  --primary-color: #ffe4e1;
+  --secondary-color: black;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: var(--default-font-family);
+  font-size: 35px;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 26px;
+  margin: 0;
+  color: #272142;
+}
+
+footer {
+  text-align: center;
+  margin: 60px 0px;
+}
+
+footer .email-link {
+  font-size: 24px;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
+footer .contact-box {
+  background-image: var(--main-background);
+  background-size: cover;
+  padding: 20px 120px;
+  border-radius: 10px;
+  margin: 0px 35px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+.hero {
+  background-image: var(--main-background);
+  background-size: cover;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.aboutme {
+  margin-top: 20%;
+}
+
+.content-container {
+  padding: 20px 30px 10px;
+  margin: 40px 35px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: var(--primary-color);
+}
+
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content-container h2 {
+  font-size: 36px;
+}
+
+.content-container h3 {
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.contactMe p {
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.btn-branding {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 27px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
+.btn-branding-outline {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  line-height: 27px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+.workpage-projects {
+  padding: 20px 30px 10px;
+  margin: 40px auto;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: var(--primary-color);
+}
+
+.logo {
+  max-width: 80px;
+}
+
+.nav-item {
+  padding: 0 10px;
+  font-size: 24px;
+}
+
+.vanillaWeatherApp {
+  margin-top: 20%;
+}
+
+.reactWeatherApp {
+  margin-top: 20%;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  footer .contact-box {
+    padding: 30px;
+  }
+}
